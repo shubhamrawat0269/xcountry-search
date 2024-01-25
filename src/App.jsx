@@ -38,8 +38,8 @@ function App() {
           )
           .map((country) => {
             return (
-              <div key={country.flag} className="country__card">
-                <img src={country.flags["svg"]} alt={country.name.common} />
+              <div key={country.cca3} className="country__card">
+                <img src={country.flags["svg"]} alt={country.flags["alt"]} />
                 <h3>{country.name.common}</h3>
               </div>
             );
