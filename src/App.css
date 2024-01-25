@@ -6,7 +6,7 @@
   align-items: center;
 }
 
-.country__card {
+.countryCard {
   border: 1px solid #ccc;
   text-align: center;
   display: flex;
